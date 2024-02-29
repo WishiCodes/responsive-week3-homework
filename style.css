@@ -3,7 +3,37 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+@media (max-width: 375px) {
+  .my-name, .about-me {
+    font-size: 38px;
+    padding: 20px;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .contact-me {
+    font-size: 28px !important;
+    margin-top: 8px !important;
+  }
+  .email-link {
+font-size: 20px !important;
+  }
+  .yoga-link,
+  .weather-link,
+  .yogurt-link {
+    display: flex;
+    justify-content: center;
+  }
+  .yoga-app,
+  .weather-app,
+  .yogurt-app {
+    font-size: 28px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
 body {
   margin: 60px auto;
   max-width: 1200px;
